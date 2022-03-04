@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LoginSuite]" guice-stage="DEVELOPMENT">
+  <parameter name="Environment" value=""/>
+  <test thread-count="5" name="VerifyLoginTest_stage(failed)">
+    <classes>
+      <class name="com.Test.Verify_LoginTest">
+        <methods>
+          <include name="BS"/>
+          <include name="verify_loginwithValidCredentials"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.Test.Verify_LoginTest -->
+    </classes>
+  </test> <!-- VerifyLoginTest_stage(failed) -->
+  <test thread-count="5" name="VerifyLoginTest_Live(failed)">
+    <classes>
+      <class name="com.Test.Verify_LoginTest">
+        <methods>
+          <include name="BS"/>
+          <include name="verify_loginwithValidCredentials"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.Test.Verify_LoginTest -->
+    </classes>
+  </test> <!-- VerifyLoginTest_Live(failed) -->
+</suite> <!-- Failed suite [LoginSuite] -->
